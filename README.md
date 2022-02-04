@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/globalbioticinteractions/min-umsp.svg)](https://travis-ci.com/globalbioticinteractions/min-umsp) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/min-umsp)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/min-umsp) 
+[![GloBI review by Elton](https://github.com/globalbioticinteractions/min-umsp/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/min-umsp/actions) [![Build Status](https://travis-ci.com/globalbioticinteractions/min-umsp.svg)](https://travis-ci.com/globalbioticinteractions/min-umsp) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/min-umsp)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/min-umsp) 
 
 
 Configuration to help make the records in the UMSP / University of Minnesota / University of Minnesota Insect Collection available through Global Biotic Interactions (GloBI, https://globalbioticinteractions.org).
