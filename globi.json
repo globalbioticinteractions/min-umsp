@@ -1,5 +1,108 @@
 {
-  "format": "dwca",
-  "citation": "UMSP / University of Minnesota / University of Minnesota Insect Collection",
-  "url": "https://scan-bugs.org/portal/content/dwca/MIN-UMSP_DwC-A.zip"
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "notPhthiraptera.tsv",
+    "dcterms:bibliographicCitation" : "UMSP / University of Minnesota / University of Minnesota Insect Collection",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceCatalogNumber",
+        "titles" : "Specimen #",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceInstitutionCode",
+        "titles" : "Depository",
+        "datatype" : "string"
+      }, {
+        "name" : "Coll Event #",
+        "titles" : "Coll Event #",
+        "datatype" : "string"
+      }, {
+        "name" : "Created",
+        "titles" : "Created",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSexName",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonLifeStageName",
+        "titles" : "Stage",
+        "datatype" : "string"
+      }, {
+        "name" : "Last Name",
+        "titles" : "Last Name",
+        "datatype" : "string"
+      }, {
+        "name" : "eventDate",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "associatedTaxa",
+        "titles" : "Host Taxon",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "County",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "State",
+        "titles" : "State",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude1",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude1",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Locality",
+        "titles" : "Verbatim Locality",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Start Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Date",
+        "titles" : "Verbatim Date",
+        "datatype" : "string"
+      }, {
+        "name" : "End Date",
+        "titles" : "End Date",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
 }
